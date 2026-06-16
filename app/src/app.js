@@ -1,5 +1,5 @@
 // CONFIGURACIÓN DEL ESTUDIANTE - Cambia tu nombre aquí
-const STUDENT_NAME = 'ABCERTY'; // Reemplaza con tu nombre (ej: 'Juan Pérez', 'María García')
+const STUDENT_NAME = 'David Muvdi'; // Reemplaza con tu nombre (ej: 'Juan Pérez', 'María García')
 
 // Mostrar timestamp actual y nombre del estudiante
 document.addEventListener('DOMContentLoaded', () => {
