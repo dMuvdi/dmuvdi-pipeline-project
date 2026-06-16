@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+app/node_modules/
+infrastructure/node_modules/
+
+# CDK build output
+infrastructure/cdk.out/
+
+# TypeScript compiled output
+infrastructure/bin/*.js
+infrastructure/bin/*.d.ts
+infrastructure/lib/*.js
+infrastructure/lib/*.d.ts
