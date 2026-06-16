@@ -16,9 +16,9 @@ export class StudentPipelineStack extends cdk.Stack {
     super(scope, id, props);
 
     // STUDENT CONFIGURATION - Update these values with your information
-    const studentId = 'estudiante1'; // Change this to your unique identifier (e.g., 'juan-perez', 'maria-garcia')
-    const githubOwner = 'Lion-geek';
-    const githubRepo = 'student-pipeline-project';
+    const studentId = 'david-muvdi'; // Change this to your unique identifier (e.g., 'juan-perez', 'maria-garcia')
+    const githubOwner = 'dMuvdi';
+    const githubRepo = 'dmuvdi-pipeline-project';
     const githubBranch = 'main';
     
     // Note: You need to create a CodeStar Connection manually in AWS Console first
