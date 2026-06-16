@@ -1,0 +1,13 @@
+{
+  "name": "student-pipeline-website",
+  "version": "1.0.0",
+  "description": "Simple static website for learning CodePipeline",
+  "scripts": {
+    "build": "echo 'Building website...' && npm run copy",
+    "copy": "mkdir -p dist && cp -r src/* dist/ && cp -r img dist/",
+    "serve": "npx http-server dist -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

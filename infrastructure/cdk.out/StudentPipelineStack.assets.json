@@ -1,0 +1,36 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "faa95a81ae7d7373f3e1f242268f904eb748d8d0fdd306e8a6fe515a1905a7d6": {
+      "displayName": "StudentPipelineStack/Custom::S3AutoDeleteObjectsCustomResourceProvider Code",
+      "source": {
+        "path": "asset.faa95a81ae7d7373f3e1f242268f904eb748d8d0fdd306e8a6fe515a1905a7d6",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "464037860466-us-east-1-50699c3d": {
+          "bucketName": "cdk-hnb659fds-assets-464037860466-us-east-1",
+          "objectKey": "faa95a81ae7d7373f3e1f242268f904eb748d8d0fdd306e8a6fe515a1905a7d6.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::464037860466:role/cdk-hnb659fds-file-publishing-role-464037860466-us-east-1"
+        }
+      }
+    },
+    "3dbccaee1f9a4df6dfcaa5070e456b67d1d60b7bd671300aa900f4c6289465e6": {
+      "displayName": "StudentPipelineStack Template",
+      "source": {
+        "path": "StudentPipelineStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "464037860466-us-east-1-a8abf6d4": {
+          "bucketName": "cdk-hnb659fds-assets-464037860466-us-east-1",
+          "objectKey": "3dbccaee1f9a4df6dfcaa5070e456b67d1d60b7bd671300aa900f4c6289465e6.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::464037860466:role/cdk-hnb659fds-file-publishing-role-464037860466-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

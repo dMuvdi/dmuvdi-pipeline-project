@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCERTY ACADEMY - Proyecto Cloud Pipeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="img/logo.webp" alt="Logo ABCERTY ACADEMY" class="logo">
+            </div>
+            <h1>🚀 ABCERTY ACADEMY</h1>
+            <p class="subtitle">Tema 3: Lab 1 - Curso AWS Developer Associate</p>
+            <p class="tagline">En ABCERTY te certificas más rápido</p>
+        </header>
+
+        <main>
+            <section class="card welcome">
+                <h2>🎉 ¡Felicitaciones <span id="studentName" class="student-name">Estudiante</span>! 🎉</h2>
+                <p>¡Lo lograste! Has completado exitosamente el despliegue de un pipeline de CI/CD profesional en AWS. Este es un hito importante en tu camino hacia la certificación AWS Developer Associate.</p>
+                <p>En <strong>ABCERTY ACADEMY</strong>, creemos que cada gran ingeniero cloud comienza con un solo despliegue. No solo estás aprendiendo AWS—estás construyendo el futuro de la tecnología.</p>
+                <p>Este sitio web se despliega automáticamente usando AWS CodePipeline, demostrando prácticas DevOps del mundo real usadas por las mejores empresas tecnológicas.</p>
+                <blockquote class="motivation">
+                    "La nube no es solo tecnología—es una mentalidad. Cada despliegue es una lección, cada error es crecimiento, y cada éxito es un paso hacia la maestría."
+                    <cite>— ABCERTY ACADEMY</cite>
+                </blockquote>
+            </section>
+
+            <section class="card">
+                <h3>🎯 Tu Misión</h3>
+                <p>Estás aprendiendo a automatizar despliegues como un ingeniero DevOps profesional. Cada vez que haces push de código a GitHub, este pipeline entra en acción—construyendo, probando y desplegando tus cambios automáticamente.</p>
+                <div id="status" class="status">
+                    <span class="status-indicator"></span>
+                    <span>Pipeline Activo y Desplegado Exitosamente</span>
+                </div>
+                <p class="timestamp" id="timestamp"></p>
+            </section>
+
+            <section class="card">
+                <h3>💪 Desafíate a Ti Mismo:</h3>
+                <ol>
+                    <li>Edita este archivo HTML y agrega tu toque personal</li>
+                    <li>Haz commit y push a GitHub</li>
+                    <li>Observa la magia en la Consola de AWS</li>
+                    <li>¡Ve tus cambios en vivo en segundos!</li>
+                </ol>
+                <p class="encouragement">Recuerda: Todo experto fue alguna vez principiante. ¡Lo estás haciendo genial! 🎉</p>
+            </section>
+
+            <section class="card academy-info">
+                <h3>🏆 Acerca de ABCERTY ACADEMY</h3>
+                <p>Estamos dedicados a transformar tecnólogos aspirantes en profesionales cloud seguros. Nuestro enfoque práctico asegura que no solo aprendas teoría—construyes soluciones reales.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Práctico</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Real</span>
+                        <span class="stat-label">Proyectos AWS</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Posibilidades</span>
+                    </div>
+                </div>
+                <div class="cta-container">
+                    <a href="https://abcerty.com/" target="_blank" rel="noopener noreferrer" class="cta-button">
+                        🌐 Visita ABCERTY.COM
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Versión: <span id="version">1.0.0</span></p>
+            <p>Desplegado vía AWS CodePipeline + S3 + CloudFront</p>
+            <p class="footer-motto">🌩️ <strong>ABCERTY ACADEMY</strong> - Construyendo Futuros en la Nube, Un Pipeline a la Vez</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

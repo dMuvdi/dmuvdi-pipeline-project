@@ -1,0 +1,34 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo "Installing dependencies..."
+      - cd app
+      - npm install
+  
+  build:
+    commands:
+      - echo "Build started on `date`"
+      - echo "Building static website..."
+      - npm run build
+      - echo "Build completed successfully"
+  
+  post_build:
+    commands:
+      - echo "Post-build started on `date`"
+      - ls -la dist/
+      - echo "Build completed on `date`"
+      - echo "Note - CloudFront cache will be invalidated automatically after deployment"
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: app/dist
+  name: website-build-$(date +%Y%m%d-%H%M%S)
+
+cache:
+  paths:
+    - 'app/node_modules/**/*'
